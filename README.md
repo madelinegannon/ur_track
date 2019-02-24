@@ -6,13 +6,13 @@ How to hook everything up.
 
 1. Connect the cables labeled `MOTOR POWER` and `ENCODER` from the motor to the track control box
 
-- The female end of the cable connects to the motor, and the male end connects to the control box
-- Align the pins, gently push, and screw the connectors onto their receivers
+    - The female end of the cable connects to the motor, and the male end connects to the control box
+    - Align the pins, gently push, and screw the connectors onto their receivers
 
 2. Connect the `LIMIT SWITCHES` cable to the track control box
 3. Connect the `EMERGENCY STOP EXT.` cable to the track control box
 
-- Right now, we don't have a button for this external e-stop; we just have a jumper wire closing that circuit (which sometimes comes loose). When troubleshooting the track, be sure to check that this jumper wire is still hooked up ¯\_(ツ)_/¯
+    - Right now, we don't have a button for this external e-stop; we just have a jumper wire closing that circuit (which sometimes comes loose). When troubleshooting the track, be sure to check that this jumper wire is still hooked up ¯\_(ツ)_/¯
 
 4. Connect the USB cable at the back of the control box to your PC.
 
@@ -20,23 +20,23 @@ How to hook everything up.
 
 5. Connect the three-pin plug at the back of the track control box to the bottom of the robot's control box.
 
-- This is a very important safety feature: this cable connects the e-stops of the track with the e-stops of the robot.
-- _You do not need to connect this if you're not using the robot (e.g., if you are testing/programming the track)_
+    - This is a very important safety feature: this cable connects the e-stops of the track with the e-stops of the robot.
+        - _You do not need to connect this if you're not using the robot (e.g., if you are testing/programming the track)_
 
 6. Power the track control box by connecting the power cable (the plug with three horizontal blades) from `MAIN POWER` the external _Step Up & Step Down Transformer_ (power inverter).
 
-- The track requires 220V power: the power inverter to steps up the 110V power from a wall outlet to 220V for the track.
-    - When getting power from a wall outlet, make sure that the `INPUT VOLTAGE` switch on the back of the inverter is set to `110V`
- - Connect the track's power cable into a `OUTPUT 220V' plug on the front of the inverter (bottom row of plug)
- - Flip up the blue switch to turn the power inverter `ON`
+    - The track requires 220V power: the power inverter to steps up the 110V power from a wall outlet to 220V for the track.
+        - When getting power from a wall outlet, make sure that the `INPUT VOLTAGE` switch on the back of the inverter is set to `110V`
+        - Connect the track's power cable into a `OUTPUT 220V` plug on the front of the inverter (bottom row of plug)
+        - Flip up the blue switch to turn the power inverter `ON`
  
 7. Flip the horizontal switch above the `MAIN POWER` plug `ON`
 
-- You should see the green light on the switch light up. If not, see the [Troubleshooting](#troubleshooting) section.
+    - You should see the green light on the switch light up. If not, see the [Troubleshooting](#troubleshooting) section.
 
 8. Press the `ENABLE` button
 
-- You should see the button light up green. If not, see the [Troubleshooting](#troubleshooting) section.
+    - You should see the button light up green. If not, see the [Troubleshooting](#troubleshooting) section.
 
 9. The track should now be ready to run!
 
@@ -62,17 +62,17 @@ To 'manually' jog the track motor through the Sureservo drive:
 6. Press `ENTER`
 7. The number you see displayed now is the SPEED 
 
-- `Be sure to slow your speed if you're near an End-Stop limit switch. The robot will pick up a lot of momentum and you can damage the switches and the track if you crash into them.`
-- 1000 is a good medium-to-high speed for jogging
-- 500 slow-to-medium speed for jogging
-- 10 is super slow, but precise — good for dialing in an exact encoder count
+    - `Be sure to slow your speed if you're near an End-Stop limit switch. The robot will pick up a lot of momentum and you can damage the switches and the track if you crash into them.`
+        - 1000 is a good medium-to-high speed for jogging
+        - 500 slow-to-medium speed for jogging
+        - 10 is super slow, but precise — good for dialing in an exact encoder count
 
 8. Press the `UP/DN` arrows to set your desired speed
 9. Press `ENTER`
 10. Press the `UP/DN` arrows to jog
 
-- The `UP` arrow moves the robot AWAY from the home position.
-- The `DN` arrow moves the robot TOWARDS from the home position.
+    - The `UP` arrow moves the robot AWAY from the home position.
+    - The `DN` arrow moves the robot TOWARDS from the home position.
 
 _`Note` The motor WILL NOT jog if the arudino inside is not externally powered (i.e., plug the arduino into your PC)._
 
@@ -102,13 +102,13 @@ You navigate the Sureservo drive interface similarly to the Jogging tutorial abo
 2. Press `NEXT` until you see `P1-00` on the display
 3. Press the `UP/DN` arrow until you see `P1-15`
 
-- This is where you input the `REV` for the 1st recorded postion
+    - This is where you input the `REV` for the 1st recorded postion
 
 4. Press `ENTER` to save or `MODE` to go back
 5. Press `MODE`
 6. Press the `UP/DN` arrow until you see `P1-16`
 
-- This is where you input the `COUNT` for the 1st recorded postion
+    - This is where you input the `COUNT` for the 1st recorded postion
 
 7. Press `ENTER` to save or `MODE` to go back
 8. Press `MODE`
