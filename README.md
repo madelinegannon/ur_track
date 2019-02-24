@@ -157,6 +157,7 @@ For more alternative instructions, see page 74 of the [Sureservo Manual](/refere
 1. Is the `BRAKE REALEASE` button lit up, but the `ENABLE` button not? Press the `ENABLE` button to make it go green. 
 2. Make sure the Arduino in the back of the track control box is plugged into your PC (or at least powered). The motor disabled unitl it's connected.
 3. Mechanical Issue? Make sure there's nothing physically obstructing motion. In the past, the angle brackets connecting the track to the ground were placed too close to the robot's pedestal, blocking its movement.
-4. ...
+4. `ALE06` Overload Alert: The motor has a brake and the brake has not been released. The way to release the brake is to apply 24 Volt though a relay with the help ofthe yellow and orange wires on the power cable. Polarity is not important. (see Automation Direct [FAQ's](https://support.automationdirect.com/faq/showfaq.php?id=1156))
+
 
 
