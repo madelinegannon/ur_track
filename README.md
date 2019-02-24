@@ -49,7 +49,9 @@ _How to hook everything up_
 
     - You should see the button light up green. If not, see the [Troubleshooting](#troubleshooting) section.
 
-9. The track should now be ready to run!
+9. The track should now be ready to run the `HOMING ROUTINE`
+    - **You must run the `HOMING ROUTINE` before sending any position commands**
+    - See `position_trigger.ino` or `position_trigger.gh` in the (original-code)[/original-code] directory for running the routine.
 
 
 ### Setup Details
