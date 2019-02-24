@@ -60,7 +60,7 @@ You can send the robot to a `HOME` position and 8 pre-programmed positions along
 - The `HOME` position is on the opposite end of the track motor
 - Position 0 `P0` is closest to the `HOME` position
 - Position 7 `P7` is closest to the track motor
-- The 8 pre-programmed positions are spaced _roughly_ 500mm apart
+- The 8 pre-programmed positions are spaced _approximately_ 500mm apart
     - `The accuracy of this spacing needs to be verified before we do any precision fabrication`
         
 
@@ -113,7 +113,7 @@ For example:
 46.5 revs = 46 revs + 5,000 counts
 ```
 
-For our track, we have estimated that `46.5 revs = 1 meter` of travel distance. *<-- this still needs to be verified*
+**For our track, we have estimated that `46.6666 revs = 1 meter` of travel distance.**
 
 
 Automation Direct has a great step-by-step [youtube tutorial](https://youtu.be/QJGwrEGMhjo) for How to Use Sureservo's Position Register Mode. 
