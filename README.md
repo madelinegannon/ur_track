@@ -115,8 +115,9 @@ For example:
 
 **For our track, we have estimated that `46.6666 revs = 1 meter` of travel distance.**
 
-
+```
 Automation Direct has a great step-by-step [youtube tutorial](https://youtu.be/QJGwrEGMhjo) for How to Use Sureservo's Position Register Mode. 
+```
 
 You navigate the Sureservo drive interface similarly to the Jogging tutorial above:
 
@@ -136,14 +137,14 @@ You navigate the Sureservo drive interface similarly to the Jogging tutorial abo
 8. Press `MODE`
 9. Press the `UP/DN` arrow until you see `P1-17`
 
-- This is where you input the `REV` for the 2nd recorded postion
+    - This is where you input the `REV` for the 2nd recorded postion
 
 10. Repeat for Position Command Parameters `P1-15` to `P1-30`
 
 ![](https://github.com/madelinegannon/ur_track/blob/master/reference/position-command-paramters.png)
 
 
-For more alternative instructions, see page 74 of the [Sureservo Manual](/reference)
+For alternative instructions, see page 74 of the [Sureservo Manual](/reference)
 ![](https://github.com/madelinegannon/ur_track/blob/master/reference/how-to_teach-positions.png)
 
 
