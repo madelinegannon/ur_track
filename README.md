@@ -31,7 +31,7 @@ _How to hook everything up_
 
 5. Connect the three-pin plug at the back of the track control box to the bottom of the robot's control box.
 
-    - This is a very important safety feature: this cable connects the e-stops of the track with the e-stops of the robot.
+    - **This is a very important safety feature.** This cable connects the e-stops of the track with the e-stops of the robot: so if the robot is malfunctioning and you hit its e-stop, the track will also trigger an e-stop (and vice-versa).
         - _You do not need to connect this if you're not using the robot (e.g., if you are testing/programming the track)_
 
 6. Power the track control box by connecting the power cable (the plug with three horizontal blades) from `MAIN POWER` the external _Step Up & Step Down Transformer_ (power inverter).
