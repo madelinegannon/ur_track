@@ -11,6 +11,8 @@ The following protocol was testing with Arduino 1.8.8
 5. If this code is not currently uploaded onto the board, hit the `UPLOAD` button on the top left of the UI.
 6. Open the Serial Monitor (the magnifying glass icon on the top right of the UI).
 7. Now you can enter and send commands to the motor driver using the commands below.
+    - **`Note` The track must be homed before sending any position commands**
+    - Run the `HOMING ROUTINE` in `position_trigger.ino` or `position_trigger.gh` first once you've just turned on the track.
 
 ### Running the Grasshopper Script
 With the grasshopper script, we just communicate to the Arduino over a general serial port connection. The following was tested with Grasshopper 0.9.0076 and [Firefly 1.0.0.70](http://www.fireflyexperiments.com/download)
