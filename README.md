@@ -29,12 +29,12 @@ _How to hook everything up_
 
     - This powers and communicates with the internal arduino that (currently) drives the track.
 
-5. Connect the three-pin plug at the back of the track control box to the bottom of the robot's control box.
+5. Connect the three-pin plug at the back of the track's control box to the bottom of the robot's control box.
 
     - **This is a very important safety feature.** This cable connects the e-stops of the track with the e-stops of the robot: so if the robot is malfunctioning and you hit its e-stop, the track will also trigger an e-stop (and vice-versa).
         - _You do not need to connect this if you're not using the robot (e.g., if you are testing/programming the track)_
 
-6. Power the track control box by connecting the power cable (the plug with three horizontal blades) from `MAIN POWER` the external _Step Up & Step Down Transformer_ (power inverter).
+6. Power the track control box by connecting the power cable (the plug with three horizontal blades) from `MAIN POWER` to the external _Step Up & Step Down Transformer_ (power inverter).
 
     - The track requires 220V power: the power inverter to steps up the 110V power from a wall outlet to 220V for the track.
         - When getting power from a wall outlet, make sure that the `INPUT VOLTAGE` switch on the back of the inverter is set to `110V`
