@@ -56,10 +56,10 @@ _How to hook everything up_
 You can send the robot to a `HOME` position and 8 pre-programmed positions along our 4 meter track.
 
 - The `HOME` position is on the opposite end of the track motor
-    - Position 0 `P0` is closest to the `HOME` position
-    - Position 7 `P7` is closest to the track motor
-    - The 8 pre-programmed positions are spaced _roughly_ 500mm apart
-        - `The accuracy of this spacing needs to be verified before we do any precision fabrication`
+- Position 0 `P0` is closest to the `HOME` position
+- Position 7 `P7` is closest to the track motor
+- The 8 pre-programmed positions are spaced _roughly_ 500mm apart
+    - `The accuracy of this spacing needs to be verified before we do any precision fabrication`
         
 
 ## Servo Motor and Drive Information
