@@ -27,7 +27,7 @@ _How to hook everything up_
 
 4. Connect the USB cable at the back of the control box to your PC.
 
-- This powers and communicates with the internal arduino that (currently) drives the track.
+    - This powers and communicates with the internal arduino that (currently) drives the track.
 
 5. Connect the three-pin plug at the back of the track control box to the bottom of the robot's control box.
 
