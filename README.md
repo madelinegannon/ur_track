@@ -1,8 +1,19 @@
 # Operating the UR Track
 Code, Manuals, and References for using our linear track with URSA
 
-## Connecting the Track to the Track Control Box
-How to hook everything up.
+- [Getting Started](#getting-started)
+    - [Connecting the Track to the Track Control Box](#connecting-the-track-to-the-track-control-box)
+    - [Setup Details](#setup-details)
+- [Servo Motor and Drive Information](#servo-motor-and-drive-information)
+- [Tutorials](#tutorials)
+    - [Jogging the Track](#instructions-jogging)
+    - [Teaching Absolute Positions](#instructions-teaching-absolute-positions)
+- [Troubleshooting](#troubleshooting)
+    
+
+## Getting Started
+### Connecting the Track to the Track Control Box
+_How to hook everything up_
 
 1. Connect the cables labeled `MOTOR POWER` and `ENCODER` from the motor to the track control box
 
@@ -41,7 +52,15 @@ How to hook everything up.
 9. The track should now be ready to run!
 
 
+### Setup Details
+You can send the robot to a `HOME` position and 8 pre-programmed positions along our 4 meter track. 
 
+    - The `HOME` position is on the opposite end of the track motor
+    - Position 0 `P0` is closest to the `HOME` position
+    - Position 7 `P7` is closest to the track motor
+    - The 8 pre-programmed positions are spaced _roughly_ 500mm apart
+        - `The accuracy of this spacing needs to be verified before we do any precision fabrication`
+        
 
 ## Servo Motor and Drive Information
 The servo motor and drive for the track are from Automation Direct | link to [motor](https://www.automationdirect.com/adc/shopping/catalog/motion_control/servo_systems/drives_-a-_motors_components/svl-201b) and [drive](https://www.automationdirect.com/adc/shopping/catalog/motion_control/servo_systems/drives_-a-_motors_components/sva-2100)
@@ -51,6 +70,7 @@ Servo Drive Model Number: SVA-2100
 ```
 More information on the servo motor and drive can be found in the [_reference_](/reference) folder of this repo.
 
+## Tutorials
 ### Instructions: Jogging
 To 'manually' jog the track motor through the Sureservo drive:
 
