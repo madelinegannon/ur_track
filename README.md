@@ -1,10 +1,39 @@
-# ur_track
+# Operating the UR Track
 Code, Manuals, and References for using our linear track with URSA
 
 ## Connecting the Track to the Track Control Box
 How to hook everything up.
 
+1. Connect the cables labeled `MOTOR POWER` and `ENCODER` from the motor to the track control box
 
+- The female end of the cable connects to the motor, and the male end connects to the control box
+- Align the pins, gently push, and screw the connectors onto their receivers
+
+2. Connect the `LIMIT SWITCHES` cable to the track control box
+3. Connect the `EMERGENCY STOP EXT.` cable to the track control box
+
+- Right now, we don't have a button for this external e-stop; we just have a jumper wire closing that circuit (which sometimes comes loose). When troubleshooting the track, be sure to check that this jumper wire is still hooked up ¯\_(ツ)_/¯
+
+4. Connect the USB cable at the back of the control box to your PC.
+
+- This powers and communicates with the internal arduino that (currently) drives the track.
+
+5. Power the track control box by connecting the power cable (the plug with three horizontal blades) from `MAIN POWER` the external _Step Up & Step Down Transformer_ (power inverter).
+
+- The track requires 220V power: the power inverter to steps up the 110V power from a wall outlet to 220V for the track.
+ - When getting power from a wall outlet, make sure that the `INPUT VOLTAGE` switch on the back of the inverter is set to `110V`
+ - Connect the track's power cable into a `OUTPUT 220V' plug on the front of the inverter (bottom row of plug)
+ - Flip up the blue switch to turn the power inverter `ON`
+ 
+6. Flip the horizontal switch above the `MAIN POWER` plug `ON`
+
+- You should see the green light on the switch light up. If not, see the [Troubleshooting](#troubleshooting) section.
+
+7. Press the `ENABLE` button
+
+- You should see the button light up green. If not, see the [Troubleshooting](#troubleshooting) section.
+
+8. The track should now be ready to run!
 
 
 
@@ -76,7 +105,7 @@ You navigate the Sureservo drive interface similarly to the Jogging tutorial abo
 
 - This is where you input the `COUNT` for the 1st recorded postion
 
-7. 4. Press `ENTER` to save or `MODE` to go back
+7. Press `ENTER` to save or `MODE` to go back
 8. Press `MODE`
 9. Press the `UP/DN` arrow until you see `P1-17`
 
@@ -87,10 +116,21 @@ You navigate the Sureservo drive interface similarly to the Jogging tutorial abo
 ![](https://github.com/madelinegannon/ur_track/blob/master/reference/position-command-paramters.png)
 
 
-For more detailed instructions, see page 74 of the [Sureservo Manual](/reference)
+For more alternative instructions, see page 74 of the [Sureservo Manual](/reference)
 ![](https://github.com/madelinegannon/ur_track/blob/master/reference/how-to_teach-positions.png)
 
 
+## Troubleshooting
 
+### The Track Control Box Isn't Turning On
+
+1. Check that the `MAIN POWER` plug is still firmly plugged into the power inverter. It sometimes comes loose and then the track looses power.
+
+### The Track Isn't Moving
+
+1. Is the `BRAKE REALEASE` button lit up, but the `ENABLE` button not? Press the `ENABLE` button to make it go green. 
+2. Make sure the Arduino in the back of the track control box is plugged into your PC (or at least powered). The motor disabled unitl it's connected.
+3. Mechanical Issue? Make sure there's nothing physically obstructing motion. In the past, the angle brackets connecting the track to the ground were placed too close to the robot's pedestal, blocking its movement.
+4. ...
 
 
