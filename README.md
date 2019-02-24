@@ -82,7 +82,7 @@ To 'manually' jog the track motor through the Sureservo drive:
 6. Press `ENTER`
 7. The number you see displayed now is the SPEED 
 
-    - `Be sure to slow your speed if you're near an End-Stop limit switch. The robot will pick up a lot of momentum and you can damage the switches and the track if you crash into them.`
+    - `Be sure to slow your speed if you're near an End-Stop limit switch. The robot will pick up a lot of momentum and you can damage the switches, the track, and potentially the robot if you crash into them.`
         - 1000 is a good medium-to-high speed for jogging
         - 500 slow-to-medium speed for jogging
         - 10 is super slow, but precise — good for dialing in an exact encoder count
