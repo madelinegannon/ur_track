@@ -36,7 +36,7 @@ _How to hook everything up_
 
 6. Power the track control box by connecting the power cable (the plug with three horizontal blades) from `MAIN POWER` to the external _Step Up & Step Down Transformer_ (power inverter).
 
-    - The track requires 220V power: the power inverter to steps up the 110V power from a wall outlet to 220V for the track.
+    - The track requires 220V power: the power inverter to steps up the 110V power from a wall outlet to 220V for the track. Do the following for safe use of the inverter:
         - When getting power from a wall outlet, make sure that the `INPUT VOLTAGE` switch on the back of the inverter is set to `110V`
         - Connect the track's power cable into a `OUTPUT 220V` plug on the front of the inverter (bottom row of plug)
         - Flip up the blue switch to turn the power inverter `ON`
