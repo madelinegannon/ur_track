@@ -41,7 +41,7 @@ To 'manually' jog the track motor directly through the Sureservo drive:
 - The `DN` arrow moves the robot TOWARDS from the home position.
 
 For more detailed instructions, see page 74 of the [Sureservo Manual](/reference)
-![/reference/how-to_jog.png "Page 74 of Sureservo Manual"]
+![/reference/how-to_jog.png]
 
 You can also watch step-by-step instructions on Automation Direct's [youtube tutorial](https://youtu.be/mXcDYoz1iMo) 
 
