@@ -33,7 +33,7 @@ With the grasshopper script, we just communicate to the Arduino over a general s
 
 
 ### Commands
-To send commands to the track, first open a serial monitor and make sure the rate is set to 19200 bauds.
+In the Arduino Sketch, you send commands to the track by first opening a serial monitor, making sure the rate is set to 19200 bauds.
 1. In the top input bar, type one of the keys below to set the approprate pins on the board. 
 2. Hit Enter
 3. Type `'9'` to trigger that action.
@@ -54,8 +54,8 @@ To send commands to the track, first open a serial monitor and make sure the rat
 '7' = Position 7
 ```
 
-Example:
-The input sequence
+#### Examples
+The input sequence:
 ```
 'h' 
 <ENTER>
@@ -64,7 +64,7 @@ The input sequence
 ```
 will run the homing routine for the track.
 
-The input sequence
+The input sequence:
 ```
 '2' 
 <ENTER>
