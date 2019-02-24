@@ -51,7 +51,7 @@ _How to hook everything up_
 
 9. The track should now be ready to run the `HOMING ROUTINE`
     - **You must run the `HOMING ROUTINE` before sending any position commands**
-    - See `position_trigger.ino` or `position_trigger.gh` in the (original-code)[/original-code] directory for running the routine.
+    - See `position_trigger.ino` or `position_trigger.gh` in the [_original-code_](/original-code) directory for running the routine.
 
 
 ### Setup Details
@@ -65,7 +65,7 @@ You can send the robot to a `HOME` position and 8 pre-programmed positions along
         
 
 ## Servo Motor and Drive Information
-The servo motor and drive for the track are from Automation Direct | link to [motor](https://www.automationdirect.com/adc/shopping/catalog/motion_control/servo_systems/drives_-a-_motors_components/svl-201b) and [drive](https://www.automationdirect.com/adc/shopping/catalog/motion_control/servo_systems/drives_-a-_motors_components/sva-2100)
+The servo motor and drive for the track are from Automation Direct (see links to their [motor](https://www.automationdirect.com/adc/shopping/catalog/motion_control/servo_systems/drives_-a-_motors_components/svl-201b) and [drive](https://www.automationdirect.com/adc/shopping/catalog/motion_control/servo_systems/drives_-a-_motors_components/sva-2100) webpages for more info)
 ```
 Servo Motor Model Number: SVL-201B
 Servo Drive Model Number: SVA-2100
