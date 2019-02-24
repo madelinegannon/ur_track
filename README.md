@@ -42,7 +42,7 @@ To 'manually' jog the track motor directly through the Sureservo drive:
 
 For more detailed instructions, see page 74 of the [Sureservo Manual](/reference)
 
-!(https://github.com/madelinegannon/ur_track/blob/master/reference/how-to_jog.png)
+![](https://github.com/madelinegannon/ur_track/blob/master/reference/how-to_jog.png)
 
 You can also watch step-by-step instructions on Automation Direct's [youtube tutorial](https://youtu.be/mXcDYoz1iMo) 
 
