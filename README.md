@@ -115,9 +115,9 @@ For example:
 
 **For our track, we have estimated that `46.6666 revs = 1 meter` of travel distance.**
 
-```
+
 Automation Direct has a great step-by-step [youtube tutorial](https://youtu.be/QJGwrEGMhjo) for How to Use Sureservo's Position Register Mode. 
-```
+
 
 You navigate the Sureservo drive interface similarly to the Jogging tutorial above:
 
