@@ -150,6 +150,7 @@ For more alternative instructions, see page 74 of the [Sureservo Manual](/refere
 ### The Track Control Box Isn't Turning On
 
 1. Check that the `MAIN POWER` plug is still firmly plugged into the power inverter. It sometimes comes loose and then the track looses power.
+2. Check that the jumper wire at the end of the `EMERGENCY STOP EXT.` cable is pushes in. If the wire comes loose, it will trigger and E-STOP.
 
 ### The Track Isn't Moving
 
