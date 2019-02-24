@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "description": "Modbus Track Control",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bitwise": "",
+    "body-parser": "",
+    "ejs": "",
+    "express": "",
+    "express-ejs-layouts": "",
+    "modbus-rtu": "^0.2.1",
+    "modbus-serial": "^7.2.2",
+    "nconf": "",
+    "serialport": "^6.2.0",
+    "socket.io": "^2.0.3",
+    "winston": ""
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

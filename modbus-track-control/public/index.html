@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+  <head>
+      <title></title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="/js/jquery-3.2.1.min.js"></script>
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  </head>
+
+<body>
+  <div class="container" style="width: 100%">
+    <div id="left-col" class="container" style="width: 50%; float: left;">
+
+      <div id="motion-control" >
+          <h2 >Motion Controls</h2>
+          <div class =  "col-sm-12">
+            <input id="acc" type="text" class="form-control" placeholder="Accel Time [ms] [Default: 1000ms]" style="font-family: Roboto Mono; font-size: small; font-style: oblique">
+          </div>
+          <div class =  "col-sm-12" style="padding-top: 10px;">
+            <input id="dec" type="text" class="form-control" placeholder="(Optional) Decel Time [ms]" style="font-family: Roboto Mono; font-size: small; font-style: oblique">
+          </div>
+          <div class =  "col-sm-12" style="padding-top: 10px;">
+            <input id="vel" type="text" class="form-control" placeholder="Velocity [RPM] [Default: 60 RPM]" style="font-family: Roboto Mono; font-size: small; font-style: oblique">
+          </div>
+          <div class =  "col-sm-12" style="padding-top: 10px;">
+            <input id="pos" type="text" class="form-control" placeholder="Position [Steps]" style="font-family: Roboto Mono; font-size: small; font-style: oblique">
+          </div>
+          <div class =  "col-sm-6" style="padding-top: 10px;">
+            <button class="b4 btn btn-success" style="width: 100%; ">Jog CCW</button>
+          </div>
+          <div class =  "col-sm-6" style="padding-top: 10px;">
+            <button class="b5 btn btn-success" style="width: 100%; ">Jog CW</button>
+          </div>
+          <div class =  "col-sm-12" style="padding-top: 10px; padding-bottom: 25px">
+            <button class="b6 btn btn-warning" style="width: 100%; ">Go to Position</button>
+          </div>
+      </div>
+
+    </div>
+
+
+    <div id="right-col" class="container" style="width: 50%; float: right;;">
+
+      <div id="write-register">
+          <h2>Write Register</h2>
+          <div class =  "col-sm-4">
+            <input id="wr-register" type="text" class="form-control" placeholder="Register" style="font-family: Roboto Mono; font-size: small; font-style: oblique">
+          </div>
+          <div class =  "col-sm-8" >
+            <input id="wr-data" type="text" class="form-control" placeholder="Data" style="font-family: Roboto Mono; font-size: small; font-style: oblique">
+          </div>
+          <div class =  "col-sm-12" style="padding-top: 10px; padding-bottom: 25px">
+            <button class="b0 btn btn-primary" style="width: 100%; ">Send</button>
+          </div>
+      </div>
+
+      <div id="read-register" >
+          <h2 >Read Register</h2>
+          <div class =  "col-sm-4">
+            <input id="rr-register" type="text" class="form-control" placeholder="Register" style="font-family: Roboto Mono; font-size: small; font-style: oblique">
+          </div>
+          <div class =  "col-sm-8" >
+            <input id="rr-data" type="text" class="form-control" placeholder="Data" style="font-family: Roboto Mono; font-size: small; font-style: oblique">
+          </div>
+          <div class =  "col-sm-12" style="padding-top: 10px; padding-bottom: 25px">
+            <button class="b1 btn btn-primary" style="width: 100%; ">Send</button>
+          </div>
+      </div>
+
+      <div id="Utilities">
+          <h2>Utilities</h2>
+          <div class =  "col-sm-12" style="padding-top: 10px;">
+            <button class="b2 btn btn-success" style="width: 100%; ">Home Track</button>
+          </div>
+          <div class =  "col-sm-12" style="padding-top: 10px;">
+            <button class="b7 btn" style="width: 100%; ">Configure Default Inputs</button>
+          </div>
+          <div class =  "col-sm-12" style="padding-top: 10px; padding-bottom: 25px">
+            <button class="b3 btn" style="width: 100%; ">Alarm Reset</button>
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+
+</body>
+</html>
+<!-- <script src="http://localhost:8196/socket.io/socket.io.js"></script><script>var socket = io.connect("http://localhost:8196");socket.on("reload", function(){window.location.reload()});</script> -->
