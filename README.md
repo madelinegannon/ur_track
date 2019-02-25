@@ -63,7 +63,7 @@ You can send the robot to a `HOME` position and 8 pre-programmed positions along
 - The 8 pre-programmed positions are spaced 500mm apart, with `P0` being the world origin.
     - The 8 Position Control points were last calibrated on: `Sunday February 24, 2019`
 
-![](https://github.com/madelinegannon/ur_track/blob/master/reference/ur-track-diagram.pdf)
+![](https://github.com/madelinegannon/ur_track/blob/master/reference/ur-track-diagram.png)
         
 
 ## Servo Motor and Drive Information
