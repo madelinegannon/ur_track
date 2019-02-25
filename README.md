@@ -66,7 +66,7 @@ You can send the robot to a `HOME` position and 8 pre-programmed positions along
 ![](https://github.com/madelinegannon/ur_track/blob/master/reference/ur-track-diagram.png)
         
 
-## Servo Motor and Drive Information
+### Servo Motor and Drive Information
 The servo motor and drive for the track are from Automation Direct (see links to their [motor](https://www.automationdirect.com/adc/shopping/catalog/motion_control/servo_systems/drives_-a-_motors_components/svl-201b) and [drive](https://www.automationdirect.com/adc/shopping/catalog/motion_control/servo_systems/drives_-a-_motors_components/sva-2100) webpages for more info)
 ```
 Servo Motor Model Number: SVL-201B
