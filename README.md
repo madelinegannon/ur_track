@@ -60,8 +60,10 @@ You can send the robot to a `HOME` position and 8 pre-programmed positions along
 - The `HOME` position is on the opposite end of the track motor
 - Position 0 `P0` is closest to the `HOME` position
 - Position 7 `P7` is closest to the track motor
-- The 8 pre-programmed positions are spaced _approximately_ 500mm apart
-    - `The accuracy of this spacing needs to be verified before we do any precision fabrication`
+- The 8 pre-programmed positions are spaced 500mm apart, with `P0` being the world origin.
+    - The 8 Position Control points were last calibrated on: `Sunday February 24, 2019`
+
+![](https://github.com/madelinegannon/ur_track/blob/master/reference/ur-track-diagram.pdf)
         
 
 ## Servo Motor and Drive Information
